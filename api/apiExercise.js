@@ -15,7 +15,7 @@ describe('API testing using SuperTest - Chai - Mocha', () => {
         // verifu products list exists
         const resBody = JSON.parse(res.text);
         assert.notEqual(resBody.products, null, "");
-        assert.isAtLeast(resBody.products.length, 1, "3 is greater or equal to 3");
+        assert.isAtLeast(resBody.products.length, 1, "no products in the list");
 
         // assert that 1st node in products JSON array returns “blue top”
         assert.equal(resBody.products[0].name, "Blue Top", "first product name is not 'Blue Top");
