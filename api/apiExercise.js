@@ -14,11 +14,11 @@ describe('API testing using SuperTest - Chai - Mocha', () => {
 
         // verifu products list exists
         const resBody = JSON.parse(res.text);
-        assert.notEqual(resBody.products, null, "");
-        assert.isAtLeast(resBody.products.length, 1, "3 is greater or equal to 3");
+        assert.notEqual(resBody.products, null, "products object does not exists");
+        assert.isAtLeast(resBody.products.length, 1, "no products exists in the list");
 
         // assert that 1st node in products JSON array returns “blue top”
-        assert.equal(resBody.products[0].name, "Blue Top", "first product name is not 'Blue Top");
+        assert.equal(resBody.products[0].name.trim(), "Blue Top", "first product name is not 'Blue Top");
       });
   });
 
@@ -48,7 +48,8 @@ describe('API testing using SuperTest - Chai - Mocha', () => {
         assert.equal(resBody.responseCode, 201, "responseCode is not 201");
 
         // assert that “message” in the response body is “User created!”
-        assert.equal(resBody.message, "User created!", "res message is not 'User created!'");
+        assert.notEqual(resBody.message, null, "message object does not exists");
+        assert.equal(resBody.message.trim(), "User created!", "res message is not 'User created!'");
       });
   });
 });
