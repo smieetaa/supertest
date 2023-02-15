@@ -13,7 +13,7 @@
 
 ## Directory Structure:
 
-/supertest-chai-mocha <br />
+/supertest <br />
 &nbsp;&nbsp;&nbsp;&nbsp; /api-tests: the API test file <br />
 &nbsp;&nbsp;&nbsp;&nbsp; /configs: environment configuration parameters likes URL <br />
 &nbsp;&nbsp;&nbsp;&nbsp; /sample-exec-result: sample result screenshot <br />
