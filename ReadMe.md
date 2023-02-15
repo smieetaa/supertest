@@ -14,11 +14,11 @@
 ## Directory Structure:
 
 /supertest-chai-mocha <br />
-        /api-tests: the API test file <br />
-        /configs: environment configuration parameters likes URL <br />
-        /sample-exec-result: sample result screenshot <br />
-        /test-data: api test data   <br />
-        /package.json: dependencies <br />
+&nbsp;&nbsp;&nbsp;&nbsp; /api-tests: the API test file <br />
+&nbsp;&nbsp;&nbsp;&nbsp; /configs: environment configuration parameters likes URL <br />
+&nbsp;&nbsp;&nbsp;&nbsp; /sample-exec-result: sample result screenshot <br />
+&nbsp;&nbsp;&nbsp;&nbsp; /test-data: api test data   <br />
+&nbsp;&nbsp;&nbsp;&nbsp; /package.json: dependencies <br />
 
 ## Getting Started:
 
