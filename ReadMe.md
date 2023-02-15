@@ -24,7 +24,7 @@
 
 You need to have the following installed in your machine:
 
-1. Install node and npm - https://nodejs.org/en/download/
+1. install node and npm - https://nodejs.org/en/download/
 2. verify the installation using below command:  <br />
 &nbsp;&nbsp; `node -v` <br />
 &nbsp;&nbsp; `npm -v`
