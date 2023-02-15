@@ -1,0 +1,24 @@
+{
+  "name": "supertest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./api --reporter spec --reporter mochawesome --timeout 5000",
+    "test-report": "mocha ./api --reporter spec --reporter mochawesome --timeout 5000 > reports/test-results.json"
+  },
+  "keywords": [
+    "supertest",
+    "mocha",
+    "chai",
+    "mochawesome"
+  ],
+  "author": "Smieetaa Patiil",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.3"
+  }
+}

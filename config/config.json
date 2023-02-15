@@ -1,0 +1,10 @@
+{
+  "baseUrl": "https://automationexercise.com",
+  "products": {
+    "getProducts": "/api/productsList"
+  },
+  "users": {
+    "createAccount": "/api/createAccount",
+    "deleteAccount": "/api/deleteAccount"
+  }
+}

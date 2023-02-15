@@ -1,0 +1,19 @@
+{
+  "name": "testUser",
+  "email": "testUser@gmail.com",
+  "password": "testAccount",
+  "title": "Mr",
+  "birth_date": "09",
+  "birth_month": "Nov",
+  "birth_year": "2023",
+  "firstname": "Test",
+  "lastname": "User",
+  "company": "AutoMationExercise",
+  "address1": "883",
+  "address2": "Collins Street",
+  "country": "AU",
+  "zipcode": "3008",
+  "state": "VIC",
+  "city": "Docklands",
+  "mobile_number": "0409876754"
+}
