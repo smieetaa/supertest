@@ -25,15 +25,17 @@
 You need to have the following installed in your machine:
 
 1. Install node and npm - https://nodejs.org/en/download/
-2. verify the installation using below command:
-   `node -v`
-   `npm -v`
-3. install supertest:
-   `npm install supertest --sasave-dev` 
-4. `mocha` framework is used for writing tests and `chai` for assertions, following command should help to install the required npm packages:
-   `npm i -D -g supertest mocha chai mochawesome`
+2. verify the installation using below command:  <br />
+&nbsp;&nbsp;&nbsp;&nbsp; `node -v` <br />
+&nbsp;&nbsp;&nbsp;&nbsp; `npm -v`
+3. install supertest: <br />
+&nbsp;&nbsp;&nbsp;&nbsp; `npm install supertest --sasave-dev` 
+4. `mocha` framework is used for writing tests and `chai` for assertions, following command should help to install the required npm packages: <br />
+&nbsp;&nbsp;&nbsp;&nbsp; `npm i -D -g supertest mocha chai mochawesome`
 5. to run the test, run the command: `npm run test`
-6. to generate the mochawesome report, run the command `npm run test-report`. You can view the report in `mochawesome.html` file in the `mochawesome-report` folder..
+6. to generate the mochawesome report, run the command:  <br />
+&nbsp;&nbsp;&nbsp;&nbsp; `npm run test-report`
+&nbsp;&nbsp;&nbsp;&nbsp; You can view the report in `mochawesome.html` file in the `mochawesome-report` folder.
 
 <img src="sample-exec-result/test.png"/>
 
