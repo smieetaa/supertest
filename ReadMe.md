@@ -1,15 +1,17 @@
 # API Testing using SuperTest, Chai and Mocha
 
 ## API Automation test assignment
-1. API 1: Get All Products List: https://automationexercise.com/api/productsList
-        1. Use above endpoint to GET a JSON response and assert that 200 OK is received
-        2. Assert that 1st node in products JSON array returns “blue top”
+This is the website we will be using for this technical test https://automationexercise.com/api_list
+ <br /> <br />
+1. API 1: Get All Products List: https://automationexercise.com/api/productsList <br />
+&nbsp;&nbsp;&nbsp;&nbsp; 1. Use above endpoint to GET a JSON response and assert that 200 OK is received <br />
+&nbsp;&nbsp;&nbsp;&nbsp; 2. Assert that 1st node in products JSON array returns “blue top” <br /> <br />
 
-2. API 11: POST To Create/Register User Account: https://automationexercise.com/api/createAccount
-        1. Use above endpoint to trigger a POST method
-        2. assert the http response code is 200 
-        3. assert that “responseCode” in the response body is 201 
-        4. assert that “message” in the response body is “User created!”
+2. API 11: POST To Create/Register User Account: https://automationexercise.com/api/createAccount <br />
+&nbsp;&nbsp;&nbsp;&nbsp; 1. Use above endpoint to trigger a POST method <br />
+&nbsp;&nbsp;&nbsp;&nbsp; 2. assert the http response code is 200  <br />
+&nbsp;&nbsp;&nbsp;&nbsp; 3. assert that “responseCode” in the response body is 201  <br />
+&nbsp;&nbsp;&nbsp;&nbsp; 4. assert that “message” in the response body is “User created!” <br />
 
 ## Directory Structure:
 
