@@ -1,7 +1,7 @@
 # API Testing using SuperTest, Chai and Mocha
 
 ## API Automation test assignment
-This is the website used for this assignment: https://automationexercise.com/api_list
+Website used for this assignment: https://automationexercise.com/api_list
  <br /> <br />
 I. API 1: Get All Products List: https://automationexercise.com/api/productsList <br />
 &nbsp;&nbsp;&nbsp;&nbsp; 1. Use above endpoint to GET a JSON response and assert that 200 OK is received <br />
